@@ -1,0 +1,54 @@
+.wrapper {
+	width: 50%;
+	margin: 0 auto;
+}
+
+
+#s {
+	border: none;
+}
+
+body{
+  
+  width:100%;
+  height:100vh;
+   background:radial-gradient(circle at center, #777, #777 0.25px, transparent 1px), radial-gradient(circle at center, #faf5f3, #faf5f3 0.25px, transparent 1px), #222;
+  background-size:150px 150px, 250px 250px, 100%;
+  overflow:hidden;
+  animation:bgmove 60s linear infinite;
+}
+ 
+  @keyframes bgmove{
+    0%{
+      background-position:0px 0px, 75px 75px, 50%;
+    }
+    100%{
+      background-position:100vw 0px, calc(200vw + 250px) 75px, 50%;
+    }
+  }
+
+
+
+
+
+/*
+ #m #a:hover {
+  transform-origin: 50% 50%;
+  animation: line-grow ease-out 500ms;
+ }   
+
+ #a:hover {
+  animation-delay: 75ms;
+ }
+
+ #g:hover {
+  animation-delay: 150ms;
+ }
+
+ @keyframes line-grow {
+  0% { transform: scaleX(1); }
+  50% { transform: scaleX(1.5); }
+  100% { transform: scaleX(1); }
+ }*/
+
+ 
